@@ -6,12 +6,12 @@ import cv2
 import random
 
 # ==================== 全局配置参数 ====================
-FPS = 10                   # 模拟精度保持10Hz（但只保存2Hz的图像）
-SAVE_INTERVAL = 5          # 每5帧保存一次（10FPS * 0.5s = 5帧）
+FPS = 10                   # 模拟精度
+SAVE_INTERVAL = 2          # 每2帧保存一次
 IMAGE_RESOLUTION = (1280, 720)  # 720p分辨率
 IMAGE_FORMAT = "jpg"       # 保存格式
 JPEG_QUALITY = 90          # 提高JPG质量
-BASE_DIR = "/home/yhy/code/CARLA/CARLA_0.9.14/dzy/20250830/part_data"
+BASE_DIR = 
 TRAFFIC_MANAGER_PORT = 8000
 NUM_MAIN_VEHICLES = 20     # 增加20辆主车（每辆一个摄像头）
 NUM_NPC_VEHICLES = 130     # 调整NPC车辆数量（总车辆数150）
